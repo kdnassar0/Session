@@ -204,6 +204,6 @@ class Session
 
     public function __toString()
     {
-        return $this->id ." ".$this->nom ."".$this->adress ." ".$this->dateDebut ." ".$this->dateFin ." ".$this->nbDePlaceTotal ;
+        return $this->nom ." ".$this->adress." ".$this->nbDePlaceTotal ;
     }
 }

@@ -85,7 +85,7 @@ class Formation
 
    public function __toString()
    {
-    return $this->id ." ". $this->nom ." ".$this->sessions ; 
+    return $this->id ." ". $this->nom ;
 
    }
     
